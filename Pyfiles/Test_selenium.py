@@ -7,8 +7,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 driver = webdriver.Chrome()
 driver.get("http://www.baidu.com")
-
-
+driver.close
 
 
 # 鼠标移动至图片上 右键保存图片
